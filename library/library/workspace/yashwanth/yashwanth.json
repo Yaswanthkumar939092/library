@@ -1,0 +1,76 @@
+{
+ "charts": [
+  {
+   "chart_name": "Chart1"
+  },
+  {
+   "chart_name": "Dashboard"
+  },
+  {
+   "chart_name": "chart2"
+  }
+ ],
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"Yashwanth\"}}]",
+ "creation": "2023-07-04 09:51:47.729463",
+ "custom_blocks": [
+  {
+   "custom_block_name": "Test HTML"
+  }
+ ],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "arrow-right",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Yashwanth",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Name",
+   "link_count": 0,
+   "link_to": "YashwanthKumar",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2023-07-04 10:01:37.887999",
+ "modified_by": "Administrator",
+ "module": "Library",
+ "name": "Yashwanth",
+ "number_cards": [
+  {
+   "number_card_name": "Average of Print"
+  },
+  {
+   "number_card_name": "Early Exit (This Month)"
+  },
+  {
+   "number_card_name": "Employee Exits (This Year)"
+  }
+ ],
+ "owner": "Administrator",
+ "parent_page": "Home",
+ "public": 1,
+ "quick_lists": [
+  {
+   "document_type": "YashwanthKumar",
+   "label": "name1"
+  }
+ ],
+ "restrict_to_domain": "Yashwnth",
+ "roles": [],
+ "sequence_id": 39.0,
+ "shortcuts": [
+  {
+   "doc_view": "List",
+   "label": "name1",
+   "link_to": "YashwanthKumar",
+   "type": "DocType"
+  }
+ ],
+ "title": "Yashwanth"
+}

@@ -1,0 +1,36 @@
+{
+ "cards": [
+  {
+   "card": "Applicant-to-Hire Percentage"
+  },
+  {
+   "card": "Approved Claims (This Month)"
+  }
+ ],
+ "charts": [
+  {
+   "chart": "Hiring vs Attrition Count",
+   "width": "Half"
+  },
+  {
+   "chart": "Department wise Expense Claims",
+   "width": "Half"
+  },
+  {
+   "chart": "Employees by Age",
+   "width": "Half"
+  }
+ ],
+ "creation": "2023-07-03 15:06:15.795789",
+ "dashboard_name": "Yashwanth Kumar",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "modified": "2023-07-03 15:06:15.795789",
+ "modified_by": "Administrator",
+ "module": "Library",
+ "name": "Yashwanth Kumar",
+ "owner": "Administrator"
+}

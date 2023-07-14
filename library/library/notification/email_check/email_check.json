@@ -1,0 +1,32 @@
+{
+ "attach_print": 0,
+ "channel": "Email",
+ "condition": "doc.status==\"Open\"",
+ "creation": "2023-06-22 12:36:30.198533",
+ "days_in_advance": 0,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "About Us Settings",
+ "enabled": 1,
+ "event": "New",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "Hi,\nThanks for visit on Our website!\n\nThanks,\n@korecent",
+ "modified": "2023-06-22 12:44:12.518616",
+ "modified_by": "Administrator",
+ "module": "Library",
+ "name": "Email Check",
+ "owner": "Administrator",
+ "recipients": [
+  {
+   "condition": "Hi",
+   "receiver_by_document_field": "owner",
+   "receiver_by_role": "All"
+  }
+ ],
+ "send_system_notification": 1,
+ "send_to_all_assignees": 0,
+ "sender": "Yashwanth Kumar",
+ "sender_email": "yaswanth@korecent.com",
+ "subject": "Checking Email is Creating Or Not"
+}

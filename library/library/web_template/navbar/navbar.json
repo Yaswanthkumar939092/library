@@ -1,0 +1,16 @@
+{
+ "__unsaved": 1,
+ "creation": "2023-06-21 17:44:53.972778",
+ "docstatus": 0,
+ "doctype": "Web Template",
+ "fields": [],
+ "idx": 0,
+ "modified": "2023-06-21 17:45:55.182786",
+ "modified_by": "Administrator",
+ "module": "Library",
+ "name": "navbar",
+ "owner": "Administrator",
+ "standard": 1,
+ "template": "",
+ "type": "Navbar"
+}

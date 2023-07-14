@@ -1,0 +1,111 @@
+<nav>
+    <div class="logo">
+        <a href="#"><img src="https://d1igbv7ujk9jkv.cloudfront.net/company/images/Korece_1588851267.png" alt="Logo"></a>
+    </div>
+    <div class="search">
+        <form action="http://127.0.0.1:8008/#login" method="GET" target="_blank">
+            <input type="text" name="q" placeholder="Search...">
+            <button type="submit">Search</button>
+        </form>
+    </div>
+    <ul class="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</nav>
+<style>
+    nav {
+        background-color: #f0ebe3;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        animation: changeBackgroundColor 5s infinite linear;
+    }
+
+    .logo {
+        margin-right: 20px;
+    }
+
+    .logo img {
+        width: 100px;
+        height: auto;
+    }
+
+    .search {
+        display: flex;
+        align-items: center;
+        width: 350px;
+        position: relative;
+    }
+
+    .search input[type="text"] {
+        padding: 8px;
+        border-radius: 4px;
+        border: none;
+        transition: background-color 0.3s ease;
+    }
+
+    .search button {
+        padding: 8px 15px;
+        border-radius: 4px;
+        border: none;
+        background-color: #48329a;
+        color: #fff;
+        margin-left: 10px;
+        transition: transform 0.3s ease;
+    }
+
+    .search input[type="text"]:focus {
+        background-color: #fff;
+    }
+
+    .search button:hover {
+        transform: scale(1.1);
+    }
+
+    .menu {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+    }
+
+    .menu li {
+        margin-right: 10px;
+        transition: transform 0.3s ease;
+    }
+
+    .menu li a {
+        text-decoration: none;
+        color: #410bbe;
+        padding: 10px;
+        border-radius: 4px;
+        transition: background-color 0.3s ease;
+    }
+
+    .menu li a:hover {
+        background-color: #48329a;
+        transform: translateY(-2px);
+    }
+
+    .menu li a.active {
+        background-color: #48329a;
+        color: #fff;
+    }
+
+    @keyframes changeBackgroundColor {
+        0% {
+            background-color: #d8e6f3;
+        }
+        50% {
+            background-color: #e8d8f5;
+        }
+        100% {
+            background-color: #edf7ff;
+        }
+    }
+</style>

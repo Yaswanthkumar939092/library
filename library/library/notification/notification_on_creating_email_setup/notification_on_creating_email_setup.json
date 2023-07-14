@@ -1,0 +1,33 @@
+{
+ "attach_print": 0,
+ "channel": "Email",
+ "condition": "doc.status==\"Open\"",
+ "creation": "2023-06-22 14:51:43.420240",
+ "days_in_advance": 0,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "Customer",
+ "enabled": 1,
+ "event": "New",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "<!DOCTYPE html>\n<html>\n<head>\n    <title>Welcome to Our Website!</title>\n</head>\n<body>\n    <h2>Hi [Customer's Name],</h2>\n    <p>Thanks for visiting our website! We're excited to have you as a new customer.</p>\n    <p>If you have any questions or need assistance, please don't hesitate to reach out to our support team.</p>\n    <p>Best regards,<br>\n    Your Company Name</p>\n</body>\n</html>\n",
+ "modified": "2023-06-22 14:51:43.420240",
+ "modified_by": "Administrator",
+ "module": "Library",
+ "name": "Notification on creating email setup",
+ "owner": "Administrator",
+ "recipients": [
+  {
+   "cc": "Hi,\nThanks For Visit on Our website!\n\n@Korecent",
+   "condition": "Hello",
+   "receiver_by_document_field": "owner",
+   "receiver_by_role": "Customer"
+  }
+ ],
+ "send_system_notification": 1,
+ "send_to_all_assignees": 0,
+ "sender": "Yashwanth Kumar",
+ "sender_email": "yaswanth@korecent.com",
+ "subject": "Checking Email"
+}

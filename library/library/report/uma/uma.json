@@ -1,0 +1,27 @@
+{
+ "add_total_row": 0,
+ "columns": [],
+ "creation": "2023-06-29 18:23:19.912177",
+ "disable_prepared_report": 0,
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "modified": "2023-06-29 18:23:36.809685",
+ "modified_by": "Administrator",
+ "module": "Library",
+ "name": "uma",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "ref_doctype": "YashwanthKumar",
+ "reference_report": "",
+ "report_name": "uma",
+ "report_type": "Custom Report",
+ "roles": [
+  {
+   "role": "System Manager"
+  }
+ ]
+}

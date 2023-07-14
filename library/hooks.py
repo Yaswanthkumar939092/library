@@ -14,7 +14,7 @@ app_license = "MIT"
 # app_include_css = "/assets/library/css/library.css"
 # app_include_js = "/assets/library/js/library.js"
 
-# include js, css files in header of web template
+# # include js, css files in header of web template
 # web_include_css = "/assets/library/css/library.css"
 # web_include_js = "/assets/library/js/library.js"
 
@@ -199,3 +199,18 @@ app_license = "MIT"
 # auth_hooks = [
 #	"library.auth.validate"
 # ]
+
+# from .custom_page import CustomPage
+
+# def get_website_routes():
+#     routes = [
+#         {'routename': '/custom-page', 'page': CustomPage.as_web_page()}
+#     ]
+#     return routes
+app_include_js = [
+    "/assets/custom_app/js/custom_permissions.js",
+]
+
+app_include_css = [
+    "/assets/custom_app/css/custom_permissions.css",
+]

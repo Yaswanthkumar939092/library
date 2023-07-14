@@ -1,0 +1,125 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-06-25 13:10:30.685122",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "name1",
+  "roll_no",
+  "full_name",
+  "father_name",
+  "mango",
+  "from_date",
+  "to_date",
+  "amended_from",
+  "sai",
+  "h",
+  "k"
+ ],
+ "fields": [
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "roll_no",
+   "fieldtype": "Int",
+   "label": "Roll_No"
+  },
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Full Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "father_name",
+   "fieldtype": "Data",
+   "label": "Father Name",
+   "reqd": 1
+  },
+  {
+   "fetch_from": "amended_from.full_name",
+   "fetch_if_empty": 1,
+   "fieldname": "mango",
+   "fieldtype": "Link",
+   "label": "Mango",
+   "options": "Banana",
+   "reqd": 1
+  },
+  {
+   "fieldname": "from_date",
+   "fieldtype": "Date",
+   "label": "from_date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "to_date",
+   "fieldtype": "Date",
+   "label": "to_date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Mango",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "sai",
+   "fieldtype": "Data",
+   "label": "Mango",
+   "options": "Sai",
+   "reqd": 1
+  },
+  {
+   "fieldname": "h",
+   "fieldtype": "Data",
+   "label": "H",
+   "options": "H",
+   "reqd": 1
+  },
+  {
+   "fieldname": "k",
+   "fieldtype": "Data",
+   "label": "K",
+   "options": "K",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2023-07-07 22:39:38.326696",
+ "modified_by": "Administrator",
+ "module": "Library",
+ "name": "Mango",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
